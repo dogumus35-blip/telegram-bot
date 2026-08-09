@@ -6,7 +6,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 async def mesaj(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.effective_chat:
-        print("Bot başlıyor...")  # Başlangıç mesajı
+        print("Bot başlıyor...")
         print("CHAT ID:", update.effective_chat.id)
         print("MESSAGE:", update.message.text)
         print("CHAT TYPE:", update.effective_chat.type)
